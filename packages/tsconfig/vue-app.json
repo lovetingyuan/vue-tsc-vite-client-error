@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "declaration": true,
+    "allowJs": true,
+    "types": ["vite/client"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2,
+    "experimentalDisableTemplateSupport": true
+  }
+}

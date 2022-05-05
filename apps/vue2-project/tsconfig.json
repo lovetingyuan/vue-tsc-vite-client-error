@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/vue-app.json",
+  "include": [
+    "vite.config.*",
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue"
+  ]
+}
