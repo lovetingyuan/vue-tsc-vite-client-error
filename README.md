@@ -1,5 +1,5 @@
-reproduce repo of vue-tsc issue
-
+reproduce repo of vue-tsc issue https://github.com/johnsoncodehk/volar/issues/1262
+ 
 1. run `pnpm install`
 2. check `apps/vue2-project/src/Foo.vue` line 11, ts will report an error(ts(2339))
 3. check `apps/vue2-project/src/main.ts` line 14, there is no error(If takeover is enabled, this file reports error too).
